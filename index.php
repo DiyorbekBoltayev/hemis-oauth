@@ -1,7 +1,7 @@
 <?php
 session_start();
 // Autoload files using the Composer autoloader.
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '8',
     'clientSecret'            => 'Vt5dnZtzK_v3vzs0ycsV2uLzrh7zicZUrz4TEiOI',
