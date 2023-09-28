@@ -15,7 +15,7 @@ require_once __DIR__ . '/vendor/autoload.php';
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '5',
     'clientSecret'            => 'oMa5Pbt1WYnu2XquG7RtNp5HQRuBMzvolXsrmetm',
-    'redirectUri'             => 'https://test-bmi-d306051c0798.herokuapp.com/',
+    'redirectUri'             => 'https://test-bmi-d306051c0798.herokuapp.com',
     'urlAuthorize'            => 'https://student.ubtuit.uz/oauth/authorize',
     'urlAccessToken'          => 'https://student.ubtuit.uz/oauth/access-token',
     'urlResourceOwnerDetails' => 'https://student.ubtuit.uz/oauth/api/user?fields=id,uuid,type,name,login,picture,email,university_id,phone,groups'
