@@ -70,6 +70,6 @@ if (!isset($_GET['code'])) {
 
     } catch (\League\OAuth2\Client\Provider\Exception\IdentityProviderException $e) {
         // Failed to get the access token or user details.
-        exit($e->getMessage());
+        exit($e->getMessage()."<br>".$e->getTraceAsString()."<br>".$e->getPrevious()."<br>".$e->getCode()."<br>".$e->getLine()."<br>".$e->getFile());
     }
 }
