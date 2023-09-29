@@ -19,6 +19,7 @@ $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'urlAuthorize'            => 'https://student.ubtuit.uz/oauth/authorize',
     'urlAccessToken'          => 'https://student.ubtuit.uz/oauth/access-token',
     'urlResourceOwnerDetails' => 'https://student.ubtuit.uz/oauth/api/user?fields=id,uuid,type,name,login,picture,email,university_id,phone,groups'
+    ,'verify'                  => false,
 ]);
 
 
