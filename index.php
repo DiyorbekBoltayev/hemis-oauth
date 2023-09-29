@@ -12,6 +12,9 @@ require_once __DIR__ . '/vendor/autoload.php';
 //    'urlResourceOwnerDetails' => 'https://univer.hemis.uz/oauth/api/user?fields=id,uuid,type,roles,name,login,picture,email,university_id,phone'
 //]);
 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '6',
     'clientSecret'            => 'sxN-JeASgdqXvu5oXBUWDmO51QI-5MuK6DhzZ9cV',
