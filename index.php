@@ -18,7 +18,7 @@ ini_set('display_errors', 1);
 $employeeProvider = new \League\OAuth2\Client\Provider\GenericProvider([
     'clientId'                => '6',
     'clientSecret'            => 'sxN-JeASgdqXvu5oXBUWDmO51QI-5MuK6DhzZ9cV',
-    'redirectUri'             => 'https://test-bmi-d306051c0798.herokuapp.com',
+    'redirectUri'             => 'http://test-bmi-d306051c0798.herokuapp.com',
     'urlAuthorize'            => 'https://student.ubtuit.uz/oauth/authorize',
     'urlAccessToken'          => 'https://student.ubtuit.uz/oauth/access-token',
     'urlResourceOwnerDetails' => 'https://student.ubtuit.uz/oauth/api/user?fields=id,uuid,type,name,login,picture,email,university_id,phone,groups'
